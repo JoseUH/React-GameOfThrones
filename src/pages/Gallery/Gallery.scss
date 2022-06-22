@@ -1,0 +1,42 @@
+.characters{
+    display: flex;
+  justify-content: space-around;
+   flex-wrap: wrap;
+   width: 100%;
+   gap: 10px;
+    .carta{
+        gap: 10px;
+        width: 20%;
+        height: 40%;
+        text-align: center;
+        color: #a5a2a2;
+        .hover{
+            
+            width: 100%;
+           text-align: center;
+           display: none;
+           
+           
+            
+        }
+        img{
+            width: 10rem;
+            height: 16rem;
+            object-fit: cover;
+        }
+        
+        &:hover {
+            .hover{
+               
+               width: 100%;
+               text-align: center;
+               transition: 0.5s;
+               display: inline ;
+               color: #a5a2a2;
+              
+            }
+        }
+    }
+      
+
+}

@@ -1,0 +1,35 @@
+nav {
+  background-color: black;
+  height: 10vh;
+    ul {
+      height: 10vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+  
+      li {
+        list-style-type: none;
+        width: 100%;
+        
+        
+        img{
+          width: 50%;
+          
+          
+        }
+  
+        a {
+          text-transform: uppercase;
+          text-decoration: none;
+          color: whitesmoke;
+          font-weight: bold;
+  
+          &:hover {
+            color: rgb(84, 174, 229);    
+          }
+        }
+      }
+    }
+  }
+  
