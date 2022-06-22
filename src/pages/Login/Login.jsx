@@ -30,7 +30,7 @@ const Login = ({ loginUser }) => {
   return (
     <div className="form">
       <h2>Login</h2>
-      <p>Registrate para poder acceder al contenido de la galeria</p>
+      <p>login for see the gallery</p>
       <form onSubmit={onSubmit}>
         <label htmlFor="email">Email</label>
         

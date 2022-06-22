@@ -1,35 +1,39 @@
 nav {
   background-color: black;
   height: 10vh;
-    ul {
-      height: 10vh;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      
-  
-      li {
-        list-style-type: none;
-        width: 100%;
-        
-        
-        img{
-          width: 50%;
-          
-          
+  ul {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    li {
+      list-style-type: none;
+      width: 100%;
+      button {
+        color: whitesmoke;
+        background: transparent;
+        font-family: "Cinzel Decorative", cursive;
+        font-size: 1rem;
+        &:hover {
+          color: rgb(84, 174, 229);
         }
-  
-        a {
-          text-transform: uppercase;
-          text-decoration: none;
-          color: whitesmoke;
-          font-weight: bold;
-  
-          &:hover {
-            color: rgb(84, 174, 229);    
-          }
+      }
+
+      img {
+        width: 50%;
+      }
+
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: bold;
+
+        &:hover {
+          color: rgb(84, 174, 229);
         }
       }
     }
   }
-  
+}
