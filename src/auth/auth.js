@@ -1,18 +1,18 @@
 const users = [
     {
-      email: "antonio@antonio.com",
+      email: "nedstark@got.com",
       password: "123456",
-      username: "aRosales",
+      username: "Nstark",
     },
     {
-      email: "alvaro@alvaro.com",
+      email: "knight@got.com",
       password: "123456",
-      username: "kNS303",
+      username: "knight",
     },
     {
-      email: "santiago@santiago.com",
+      email: "user@got.com",
       password: "123456",
-      username: "corocottax",
+      username: "user",
     },
   ];
 
